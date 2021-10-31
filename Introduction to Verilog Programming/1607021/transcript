@@ -1,0 +1,93 @@
+# Compile of alu_1607021.v was successful.
+# Compile of testbench_1607021.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Load canceled
+# Break key hit
+# Load canceled
+# Load canceled
+vsim -gui work.tb_alu
+# vsim -gui work.tb_alu 
+# Start time: 13:18:07 on Jun 01,2021
+# Loading work.tb_alu
+# ** Error: (vsim-3033) Instantiation of 'alu_1607021' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_alu File: F:/4.2 - Semester/CSE4223 - DSD/CSE4223 - DSD - Labs/Lab 05/1607021/testbench_1607021.v Line: 11
+#         Searched libraries:
+#             F:/4.2 - Semester/CSE4223 - DSD/CSE4223 - DSD - Labs/Lab 05/1607021/work
+# Error loading design
+# End time: 13:18:08 on Jun 01,2021, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 2
+# Compile of alu_1607021.v was successful.
+# Compile of testbench_1607021.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb_alu
+# vsim -gui work.tb_alu 
+# Start time: 13:19:15 on Jun 01,2021
+# Loading work.tb_alu
+# ** Error: (vsim-3033) Instantiation of 'alu_1607021' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_alu File: F:/4.2 - Semester/CSE4223 - DSD/CSE4223 - DSD - Labs/Lab 05/1607021/testbench_1607021.v Line: 11
+#         Searched libraries:
+#             F:/4.2 - Semester/CSE4223 - DSD/CSE4223 - DSD - Labs/Lab 05/1607021/work
+# Error loading design
+# End time: 13:19:16 on Jun 01,2021, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 2
+# Compile of alu_1607021.v was successful.
+# Compile of testbench_1607021.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb_alu
+# vsim -gui work.tb_alu 
+# Start time: 13:20:35 on Jun 01,2021
+# Loading work.tb_alu
+# Loading work.alu
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'test_unit'.  Expected 7, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_alu/test_unit File: F:/4.2 - Semester/CSE4223 - DSD/CSE4223 - DSD - Labs/Lab 05/1607021/testbench_1607021.v Line: 11
+# ** Warning: (vsim-3722) F:/4.2 - Semester/CSE4223 - DSD/CSE4223 - DSD - Labs/Lab 05/1607021/testbench_1607021.v(11): [TFMPC] - Missing connection for port 'clk'.
+# ** Warning: (vsim-3722) F:/4.2 - Semester/CSE4223 - DSD/CSE4223 - DSD - Labs/Lab 05/1607021/testbench_1607021.v(11): [TFMPC] - Missing connection for port 'reset'.
+add wave -position end  sim:/tb_alu/A
+add wave -position end  sim:/tb_alu/B
+add wave -position end  sim:/tb_alu/ALU_Sel
+add wave -position end  sim:/tb_alu/ALU_Out
+run
+run
+add wave -position end  sim:/tb_alu/i
+run
+# Load canceled
+# Break key hit
+# Break key hit
+vsim -gui work.tb_alu
+# End time: 13:29:01 on Jun 01,2021, Elapsed time: 0:08:26
+# Errors: 0, Warnings: 5
+# vsim -gui work.tb_alu 
+# Start time: 13:29:01 on Jun 01,2021
+# Loading work.tb_alu
+# Loading work.alu
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'test_unit'.  Expected 7, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_alu/test_unit File: F:/4.2 - Semester/CSE4223 - DSD/CSE4223 - DSD - Labs/Lab 05/1607021/testbench_1607021.v Line: 11
+# ** Warning: (vsim-3722) F:/4.2 - Semester/CSE4223 - DSD/CSE4223 - DSD - Labs/Lab 05/1607021/testbench_1607021.v(11): [TFMPC] - Missing connection for port 'clk'.
+# ** Warning: (vsim-3722) F:/4.2 - Semester/CSE4223 - DSD/CSE4223 - DSD - Labs/Lab 05/1607021/testbench_1607021.v(11): [TFMPC] - Missing connection for port 'reset'.
+add wave -position end  sim:/tb_alu/A
+add wave -position end  sim:/tb_alu/B
+add wave -position end  sim:/tb_alu/ALU_Sel
+add wave -position end  sim:/tb_alu/ALU_Out
+add wave -position end  sim:/tb_alu/CarryOut
+add wave -position end  sim:/tb_alu/i
+run
+# Break key hit
+vsim -gui work.tb_alu
+# End time: 13:46:54 on Jun 01,2021, Elapsed time: 0:17:53
+# Errors: 0, Warnings: 4
+# vsim -gui work.tb_alu 
+# Start time: 13:46:54 on Jun 01,2021
+# Loading work.tb_alu
+# Loading work.alu
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'test_unit'.  Expected 7, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_alu/test_unit File: F:/4.2 - Semester/CSE4223 - DSD/CSE4223 - DSD - Labs/Lab 05/1607021/testbench_1607021.v Line: 11
+# ** Warning: (vsim-3722) F:/4.2 - Semester/CSE4223 - DSD/CSE4223 - DSD - Labs/Lab 05/1607021/testbench_1607021.v(11): [TFMPC] - Missing connection for port 'clk'.
+# ** Warning: (vsim-3722) F:/4.2 - Semester/CSE4223 - DSD/CSE4223 - DSD - Labs/Lab 05/1607021/testbench_1607021.v(11): [TFMPC] - Missing connection for port 'reset'.
+add wave -position end  sim:/tb_alu/A
+add wave -position end  sim:/tb_alu/B
+add wave -position end  sim:/tb_alu/ALU_Sel
+add wave -position end  sim:/tb_alu/ALU_Out
+add wave -position end  sim:/tb_alu/i
+run
+# End time: 13:48:01 on Jun 01,2021, Elapsed time: 0:01:07
+# Errors: 0, Warnings: 4

@@ -1,0 +1,15 @@
+{F:/4.2 - Semester/CSE4223 - DSD/CSE4223 - DSD - Labs/Lab 05/1607021/alu_1607021.v} {1 {vlog -work work -stats=none {F:/4.2 - Semester/CSE4223 - DSD/CSE4223 - DSD - Labs/Lab 05/1607021/alu_1607021.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} {F:/4.2 - Semester/CSE4223 - DSD/CSE4223 - DSD - Labs/Lab 05/1607021/testbench_1607021.v} {1 {vlog -work work -stats=none {F:/4.2 - Semester/CSE4223 - DSD/CSE4223 - DSD - Labs/Lab 05/1607021/testbench_1607021.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_alu
+
+Top level modules:
+	tb_alu
+
+} {} {}}
